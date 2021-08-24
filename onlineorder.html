@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" href="styles/style.css">
+    <link 
+      href="https://fonts.googleapis.com/css2?
+      family=Ubuntu+Mono&display=swap" 
+      rel="stylesheet">    
+</head>
+
+<body class="order-background">
+	<nav id="navbar">
+		  <img src="images/Pizza.png">      
+        <ul id="navcontent">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            
+            <li><a href="onlineorder.html">Online Order</a></li>
+        </ul>
+    </nav>
+ 
+ 
+<center><form name="input" action="#" method="post">
+	
+  <h1>Online Order</h1>
+  <label>First name: <input type="text" name="firstname" placeholder="John" maxlength="65" required ><br/></label>
+  <label>Last name: <input type="text" name="lastname" placeholder="Smith" maxlength="65" required><br/></label>
+  <label>Address:<input type="text" name="address" placeholder="1234 Street City, ST Zip" required><br/></label>
+  <label>Email: <input type="email" name="email" placeholder="smith@gmail.com" maxlength="65" required><br/></label>
+  <label>Cell Phone: <input type="tel" name="tel" placeholder="111-222-3333" required><br/></label>	
+
+    <p>Pizza toppings (Check all that apply)</p>
+    <input type="checkbox" checked>Cheese
+    <input type="checkbox">Mushrooms
+    <input type="checkbox">Pepperoni
+    <p>Comments:</p>
+	  <textarea></textarea>
+	  <p></p>
+  <input type="submit" value="Submit" href="#">
+</form>
+</center>
+</body>
+</html>
